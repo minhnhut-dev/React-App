@@ -10,7 +10,7 @@ class Header extends Component {
         {/* MENU */}
         <nav className="navbar navbar-expand-md bg-darkk fixed-top">
           <div className="container">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" >
               <img src={logo} alt="logo" className="logo"/>
               </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -19,24 +19,24 @@ class Header extends Component {
             <div className="collapse navbar-collapse justify-content-center Menu" id="collapsibleNavbar">
               <ul className="navbar-nav menu">
                 <li className="nav-item">
-                  <a className="nav-link" href="giothieu.html"><b>GIỚI THIỆU</b></a>
+                  <a className="nav-link" ><b>GIỚI THIỆU</b></a>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>TIN TỨC</b></a>
+                  <a className="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"><b>TIN TỨC</b></a>
                   <div className="dropdown-menu bg-warning">
-                    <a className="dropdown-item" href="bangcapnhatmua10.html">BẢNG CẬP NHẬT MÙA 10</a>
-                    <a className="dropdown-item" href="thongtinbangngoc.html">THÔNG TIN BẢNG NGỌC</a>
-                    <a className="dropdown-item" href="capnhatrank.html">CẬP NHẬT RANK</a>
+                    <a className="dropdown-item" >BẢNG CẬP NHẬT MÙA 10</a>
+                    <a className="dropdown-item" >THÔNG TIN BẢNG NGỌC</a>
+                    <a className="dropdown-item" >CẬP NHẬT RANK</a>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="dieukhoan.html"><b>ĐIỀU KHOẢN</b></a>
+                  <a className="nav-link" ><b>ĐIỀU KHOẢN</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="lichsugiaodich.html"><b>LỊCH SỬ GIAO DỊCH</b></a>
+                  <a className="nav-link" ><b>LỊCH SỬ GIAO DỊCH</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="napthe.html"><b>NẠP THẺ</b></a>
+                  <a className="nav-link" ><b>NẠP THẺ</b></a>
                 </li>
               </ul>
             </div>

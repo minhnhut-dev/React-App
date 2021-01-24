@@ -25,16 +25,16 @@ class Product extends Component {
               </div>
               <div className="cardd text-light card1">
                 <div className="header-card">
-                  <img className="star" src={Star} />
+                  <img className="star" src={Star} alt="star"/>
                   <p>
                     Acc #1
                     <img src={Sale} />
-                    <span className="text-sale">
+                    <span className="text-sale" alt="sale">
                       <b>-50%</b>
                     </span>
                   </p>
                 </div>
-                <img className="card-img-top" src={Acc1}/>
+                <img className="card-img-top" src={Acc1} alt="Acc1"/>
                 <div className="card-body">
                   <del>500.000 VNĐ</del>
                   <h5 className="form-check-inline">250.000 VNĐ</h5>
